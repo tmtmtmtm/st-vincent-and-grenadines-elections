@@ -42,8 +42,8 @@ def scrape_person(url)
   noko = noko_for(url)
   puts url
 
-  area = noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text
-  party, party_id = party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text)
+  area = noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.tidy
+  party, party_id = party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
 
   # binding.pry
   headline = noko.css('.news_headline')
