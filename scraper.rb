@@ -61,12 +61,4 @@ def scrape_person(url)
   ScraperWiki.save_sqlite([:id, :term], data)
 end
 
-term = { 
-  id: 8,
-  name: "8th Vincentian Assembly",
-  start_date: 2010,
-  source: "https://en.wikipedia.org/wiki/House_of_Assembly_of_Saint_Vincent_and_the_Grenadines",
-}
-ScraperWiki.save_sqlite([:id], term, 'terms')
-
 scrape_list('http://www.caribbeanelections.com/vc/default.asp')
