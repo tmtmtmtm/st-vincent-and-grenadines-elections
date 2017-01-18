@@ -85,17 +85,12 @@ class MemberPage < Scraped::HTML
   end
 end
 
-def scrape_list(url)
-  page = scrape(url => MembersPage).member_urls.map do |mp_url|
-    scrape_person(mp_url)
-  end
-end
+start = 'http://www.caribbeanelections.com/vc/default.asp'
 
-def scrape_person(url)
-  data = scrape(url => MemberPage).to_h
-  # puts data.sort_by { |k, _| k }.to_h
-  ScraperWiki.save_sqlite(%i(id term), data)
+data = scrape(start => MembersPage).member_urls.map do |url|
+  scrape(url => MemberPage).to_h
 end
+# puts data.map { |r| r.sort_by { |k, _| k }.to_h }
 
 ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
-scrape_list('http://www.caribbeanelections.com/vc/default.asp')
+ScraperWiki.save_sqlite(%i(id term), data)
