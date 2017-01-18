@@ -61,7 +61,7 @@ class MemberPage < Scraped::HTML
   end
 
   field :name do
-    name_td.text.sub('*', '')
+    name_td.text.gsub('*', '')
   end
 
   field :image do
