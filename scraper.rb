@@ -14,18 +14,6 @@ def scrape(h)
   klass.new(response: Scraped::Request.new(url: url).response)
 end
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read)
-end
-
-def party_from(text)
-  if text =~ /(.*?)\s+\((.*?)\)/
-    [Regexp.last_match(1), Regexp.last_match(2)]
-  else
-    raise "No party in #{text}"
-  end
-end
-
 class MembersPage < Scraped::HTML
   decorator Scraped::Response::Decorator::AbsoluteUrls
 
@@ -35,33 +23,77 @@ class MembersPage < Scraped::HTML
   end
 end
 
+class MemberPage < Scraped::HTML
+  decorator Scraped::Response::Decorator::AbsoluteUrls
+
+  field :id do
+    url.to_s.split('/').last.sub(/\..*/, '')
+  end
+
+  field :name do
+    headline.text.tidy
+  end
+
+  field :image do
+    headline.xpath('preceding::img/@src').last.text
+  end
+
+  field :area do
+    noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.strip
+  end
+
+  field :area_id do
+    'ocd-division/country:vc/constituency:%s' % area.downcase.tr(' ', '-')
+  end
+
+  field :party do
+    party_data.first
+  end
+
+  field :party_id do
+    party_data.last
+  end
+
+  field :term do
+    8
+  end
+
+  field :source do
+    url.to_s
+  end
+
+  private
+
+  def headline
+    noko.css('.news_headline')
+  end
+
+  def area
+    noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.tidy
+  end
+
+  def party_data
+    party, party_id = party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
+  end
+
+  def party_from(text)
+    if text =~ /(.*?)\s+\((.*?)\)/
+      [Regexp.last_match(1), Regexp.last_match(2)]
+    else
+      raise "No party in #{text}"
+    end
+  end
+end
+
 def scrape_list(url)
-  page = scrape(url => MembersPage).member_urls.each do |mp_url|
+  page = scrape(url => MembersPage).member_urls.map do |mp_url|
     scrape_person(mp_url)
   end
 end
 
 def scrape_person(url)
-  noko = noko_for(url)
-  puts url
-
-  area = noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.tidy
-  party, party_id = party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
-
-  # binding.pry
-  headline = noko.css('.news_headline')
-  data = {
-    id:       url.to_s.split('/').last.sub(/\..*/, ''),
-    name:     headline.text.tidy,
-    image:    headline.xpath('preceding::img/@src').last.text,
-    area:     noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text,
-    area_id:  'ocd-division/country:vc/constituency:%s' % area.downcase.tr(' ', '-'),
-    party:    party,
-    party_id: party_id,
-    term:     8,
-    source:   url.to_s,
-  }
-  data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
+  data = scrape(url => MemberPage).to_h
+  # puts data.sort_by { |k, _| k }.to_h
   ScraperWiki.save_sqlite(%i(id term), data)
 end
 
