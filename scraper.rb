@@ -1,5 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
+# frozen_string_literal: true
 
 require 'scraperwiki'
 require 'nokogiri'
@@ -11,18 +12,17 @@ OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
+    gsub(/[[:space:]]+/, ' ').strip
   end
 end
 
 def noko_for(url)
   Nokogiri::HTML(open(url).read)
-  # Nokogiri::HTML(open(url).read, nil, 'utf-8')
 end
 
 def party_from(text)
-  if text.match(/(.*?)\s+\((.*?)\)/)
-    return [$1, $2]
+  if text =~ /(.*?)\s+\((.*?)\)/
+    [Regexp.last_match(1), Regexp.last_match(2)]
   else
     raise "No party in #{text}"
   end
@@ -46,19 +46,19 @@ def scrape_person(url)
 
   # binding.pry
   headline = noko.css('.news_headline')
-  data = { 
-    id: url.to_s.split('/').last.sub(/\..*/,''),
-    name: headline.text.tidy,
-    image: headline.xpath('preceding::img/@src').last.text,
-    area: noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text,
-    area_id: "ocd-division/country:vc/constituency:%s" % area.downcase.tr(' ','-'), 
-    party: party,
+  data = {
+    id:       url.to_s.split('/').last.sub(/\..*/, ''),
+    name:     headline.text.tidy,
+    image:    headline.xpath('preceding::img/@src').last.text,
+    area:     noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text,
+    area_id:  'ocd-division/country:vc/constituency:%s' % area.downcase.tr(' ', '-'),
+    party:    party,
     party_id: party_id,
-    term: 8,
-    source: url.to_s,
+    term:     8,
+    source:   url.to_s,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
-  ScraperWiki.save_sqlite([:id, :term], data)
+  ScraperWiki.save_sqlite(%i(id term), data)
 end
 
 scrape_list('http://www.caribbeanelections.com/vc/default.asp')
