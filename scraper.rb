@@ -9,6 +9,11 @@ require 'pry'
 require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
+def scrape(h)
+  url, klass = h.to_a.first
+  klass.new(response: Scraped::Request.new(url: url).response)
+end
+
 def noko_for(url)
   Nokogiri::HTML(open(url).read)
 end
@@ -21,11 +26,17 @@ def party_from(text)
   end
 end
 
+class MembersPage < Scraped::HTML
+  decorator Scraped::Response::Decorator::AbsoluteUrls
+
+  field :member_urls do
+    box = noko.css('div#TabbedPanels1 table')[1]
+    box.css('a[href*="candidates/"]/@href').map(&:text).uniq
+  end
+end
+
 def scrape_list(url)
-  noko = noko_for(url)
-  box = noko.css('div#TabbedPanels1 table')[1]
-  box.css('a[href*="candidates/"]/@href').map(&:text).uniq.each do |href|
-    mp_url = URI.join url, href
+  page = scrape(url => MembersPage).member_urls.each do |mp_url|
     scrape_person(mp_url)
   end
 end
