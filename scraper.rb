@@ -73,7 +73,7 @@ class MemberPage < Scraped::HTML
   end
 
   def party_data
-    party, party_id = party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
+    party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
   end
 
   def party_from(text)
