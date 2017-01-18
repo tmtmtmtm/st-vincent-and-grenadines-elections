@@ -14,32 +14,23 @@ def scrape(h)
   klass.new(response: Scraped::Request.new(url: url).response)
 end
 
-class MembersPage < Scraped::HTML
+class ResultsPage < Scraped::HTML
   decorator Scraped::Response::Decorator::AbsoluteUrls
 
-  field :member_urls do
-    box = noko.css('div#TabbedPanels1 table')[1]
-    box.css('a[href*="candidates/"]/@href').map(&:text).uniq
+  field :elected_members do
+    noko.xpath('//span[contains(.,"ELECTED MEMBERS")]//following::table[1]//tr[td]').drop(1).map do |tr|
+      fragment tr => WinnerRow
+    end
   end
 end
 
-class MemberPage < Scraped::HTML
-  decorator Scraped::Response::Decorator::AbsoluteUrls
-
-  field :id do
-    url.to_s.split('/').last.sub(/\..*/, '')
-  end
-
-  field :name do
-    headline.text.tidy
-  end
-
-  field :image do
-    headline.xpath('preceding::img/@src').last.text
+class WinnerRow < Scraped::HTML
+  field :sort_name do
+    tds[2].text.tidy
   end
 
   field :area do
-    noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.strip
+    tds[0].text.tidy
   end
 
   field :area_id do
@@ -47,44 +38,54 @@ class MemberPage < Scraped::HTML
   end
 
   field :party do
-    party_data.first
-  end
-
-  field :party_id do
-    party_data.last
+    tds[3].text.tidy
   end
 
   field :source do
-    url.to_s
+    tds[2].css('a/@href').text
   end
 
   private
 
-  def headline
-    noko.css('.news_headline')
-  end
-
-  def area
-    noko.xpath('//td[span[contains(.,"Constituency")]]/following-sibling::td').text.tidy
-  end
-
-  def party_data
-    party_from(noko.xpath('//td[span[contains(.,"Party")]]/following-sibling::td').text.tidy)
-  end
-
-  def party_from(text)
-    if text =~ /(.*?)\s+\((.*?)\)/
-      [Regexp.last_match(1), Regexp.last_match(2)]
-    else
-      raise "No party in #{text}"
-    end
+  def tds
+    noko.css('td')
   end
 end
 
-start = 'http://www.caribbeanelections.com/vc/default.asp'
+class MemberPage < Scraped::HTML
+  decorator Scraped::Response::Decorator::AbsoluteUrls
 
-data = scrape(start => MembersPage).member_urls.map do |url|
-  scrape(url => MemberPage).to_h.merge(term: 8)
+  field :id do
+    File.basename(url, '.*')
+  end
+
+  field :name do
+    name_td.text.sub('*', '')
+  end
+
+  field :image do
+    name_td.xpath('preceding::img[1]/@src').text
+  end
+
+  field :party_id do
+    party_node.text[/\(([^)]+)\)/, 1]
+  end
+
+  private
+
+  def name_td
+    noko.css('.Article02')
+  end
+
+  def party_node
+    name_td.xpath('following::td[.="Party"]//following-sibling::td//a[contains(@href, "/parties/")]')
+  end
+end
+
+start = 'http://www.caribbeanelections.com/vc/elections/vc_results_2015.asp'
+
+data = scrape(start => ResultsPage).elected_members.map do |mem|
+  mem.to_h.merge(scrape(mem.source => MemberPage).to_h).merge(term: 9)
 end
 # puts data.map { |r| r.sort_by { |k, _| k }.to_h }
 
