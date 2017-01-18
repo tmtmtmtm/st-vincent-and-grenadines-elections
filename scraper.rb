@@ -54,10 +54,6 @@ class MemberPage < Scraped::HTML
     party_data.last
   end
 
-  field :term do
-    8
-  end
-
   field :source do
     url.to_s
   end
@@ -88,7 +84,7 @@ end
 start = 'http://www.caribbeanelections.com/vc/default.asp'
 
 data = scrape(start => MembersPage).member_urls.map do |url|
-  scrape(url => MemberPage).to_h
+  scrape(url => MemberPage).to_h.merge(term: 8)
 end
 # puts data.map { |r| r.sort_by { |k, _| k }.to_h }
 
