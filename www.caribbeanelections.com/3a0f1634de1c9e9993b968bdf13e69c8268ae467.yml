@@ -1,0 +1,37 @@
+---
+request:
+  method: get
+  uri: http://www.caribbeanelections.com/vc/election2015/candidates/Godwin_Friday.asp
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 18 Jan 2017 15:28:17 GMT
+    Server:
+    - Microsoft-IIS/6.0
+    X-Powered-By:
+    - ASP.NET
+    Content-Length:
+    - '46712'
+    Content-Type:
+    - text/html
+    Set-Cookie:
+    - ASPSESSIONIDQQCQBADA=LNMKIJCDEICLMKCEEPCHLNNP; path=/
+    Cache-Control:
+    - private
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 18 Jan 2017 15:28:17 GMT
