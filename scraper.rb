@@ -43,6 +43,8 @@ class WinnerRow < Scraped::HTML
   end
 
   field :source do
+    # wrong link on site!
+    return 'http://www.caribbeanelections.com/vc/election2015/candidates/Frederick_Stephenson.asp' if area == 'South Windward'
     tds[2].css('a/@href').text
   end
 
