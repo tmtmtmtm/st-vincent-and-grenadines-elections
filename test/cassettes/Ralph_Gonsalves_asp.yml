@@ -1,0 +1,683 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.caribbeanelections.com/vc/election2015/candidates/Ralph_Gonsalves.asp
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 27 Apr 2017 12:40:28 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '52981'
+      Content-Type:
+      - text/html
+      Set-Cookie:
+      - ASPSESSIONIDQACDQCTC=LMKIICGAKFGICDCKBCDFDLGK; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n\"http://www.w3.org/TR/html4/loose.dtd\">\n<html><!--
+        InstanceBegin template=\"/Templates/vc2015_candidates.dwt\" codeOutsideHTMLIsLocked=\"false\"
+        -->\n<head>\n<!-- InstanceBeginEditable name=\"doctitle\" -->\n<title>St.
+        Vincent and the Grenadines Election 2015 Candidates | Ralph Gonsalves</title>\n<!--
+        InstanceEndEditable --> \n<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=iso-8859-1\">\n<link rel=\"shortcut icon\" href=\"http://www.caribbeanelections.com/images/icons/caribbeanelections.ico\"
+        />\n<STYLE>\nA.inside:link {\n\tCOLOR: #313063;\n\tTEXT-DECORATION: none;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n}\nA.inside:visited
+        {\n\tCOLOR: #313063;\n\tTEXT-DECORATION: none;\n\tfont-family: Arial, Helvetica,
+        sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n}\nA.inside:hover
+        {\n\tCOLOR: #900;\n\tTEXT-DECORATION: underline;\n\tfont-family: Arial, Helvetica,
+        sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n}\n.Article02 {\n\tfont-size:
+        large;\n\tfont-family: \"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif;\n\tcolor:
+        #333;\n\ttext-decoration: none;\n\t}\n.Article0:link {\n\tfont-size: large;\n\tfont-family:
+        \"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif;\n\tcolor: #333;\n\ttext-decoration:
+        none;\n}\n.Article0:visited {\n\tfont-size: large;\n\tfont-family: \"Lucida
+        Sans Unicode\", \"Lucida Grande\", sans-serif;\n\tcolor: #333;\n\ttext-decoration:
+        none;\n}\n.Article0:hover {\n\tCOLOR: #003;\n\tfont-size: large;\n\tfont-family:
+        \"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif;\n\tcolor: #003366;\n\ttext-decoration:
+        none;\n\t}\n\n.xsmall_grey {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size:
+        x-small;\n\tfont-style: normal;\n\tfont-weight: normal;\n\tcolor: #666;\n}\n.facts
+        {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n}\n.facts
+        {\n\tcolor: #666;\n\tfont-family: Tahoma, Geneva, sans-serif;\n}\n\n.votes
+        {\n\tfont-family: Verdana, Geneva, sans-serif;\n\tfont-size: medium;\n\tfont-style:
+        normal;\n\tfont-weight: bold;\n\ttext-decoration: none;\n\tcolor: #333;\n}\n\n.menu_title
+        {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-weight: bold;\n\tfont-size:
+        x-small;\n\tcolor: #333;\n\tfont-style: normal;\n\ttext-decoration: none;\n\tvertical-align:
+        middle;\n}\nA.sectionmenu:link {\n\tCOLOR: #313063;\n\tTEXT-DECORATION: none;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n\tfont-weight:
+        normal;\n}\nA.sectionmenu:visited {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.sectionmenu:hover {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        underline;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.sidemenu:link {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: x-small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.sidemenu:visited {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: x-small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.sidemenu:hover {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        underline;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: x-small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\n\nA.home:link {\n\tCOLOR: #ffffff;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: x-small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.home:visited {\n\tCOLOR: #ffffff;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: x-small;\n\tfont-style:
+        normal;\n\tfont-weight: normal;\n}\nA.home:hover {\n\tCOLOR: #003;\n\tTEXT-DECORATION:
+        none;\n\tfont-size: x-small;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-weight:
+        normal;\n}\n\nA.top:link {\n\tCOLOR: #ffffff;\n\tTEXT-DECORATION: none;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n\tfont-weight:
+        normal;\n}\nA.top:visited {\n\tCOLOR: #ffffff;\n\tTEXT-DECORATION: none;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n\tfont-weight:
+        normal;\n}\nA.top:hover {\n\tCOLOR: #003;\n\tTEXT-DECORATION: none;\n\tfont-size:
+        small;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-style: normal;\n\tfont-weight:
+        normal;\n}\nA.tracking:link {\n\tCOLOR: #666666; TEXT-DECORATION: none\n}\nA.tracking:visited
+        {\n\tCOLOR: #666666; TEXT-DECORATION: none\n}\nA.tracking:hover {\n\tCOLOR:
+        #999999;\n\tTEXT-DECORATION: underline\n}\n}\nA.rightmenu:link {\n\tCOLOR:
+        #313063;\n\tTEXT-DECORATION: none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size:
+        small;\n\tfont-style: normal;\n}\nA.rightmenu:visited {\n\tCOLOR: #313063;\n\tTEXT-DECORATION:
+        none;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style:
+        normal;\n}\nA.rightmenu:hover {\n\tCOLOR: #313063;\n\tTEXT-DECORATION: underline;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n}\n}\n.body
+        {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style:
+        normal;\n\ttext-decoration: none;\n}\n.xsmall_white {\n\tfont-family: Arial,
+        Helvetica, sans-serif;\n\tfont-size: x-small;\n\tcolor: #FFF;\n}\n.section_title
+        {\n\tfont-size: medium;\n\tcolor: #FFF;\n\tfont-family: Verdana, Geneva, sans-serif;\n\tfont-style:
+        normal;\n\tfont-weight: bold;\n}\n.xsmall_black {\n\tfont-weight: normal;\n\tfont-size:
+        x-small;\n\tfont-style: normal;\n\ttext-decoration: none;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n}\n.inside_title {\n\tfont-family: Arial, Helvetica,
+        sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n\tfont-weight: bold;\n}\n.mainbody
+        {\n\tfont-family: Arial, Helvetica, sans-serif;\n\tfont-size: small;\n\tfont-style:
+        normal;\n\tcolor: #000;\n\tline-height: normal;\n\ttext-decoration: none;\n}\nbody
+        {\n\tbackground-color: #F1F2F8;\n}\n.link_list {\n\tfont-family: Arial, Helvetica,
+        sans-serif;\n\tfont-size: small;\n\tfont-style: normal;\n\tline-height: 2;\n\tlist-style-position:
+        outside;\n\tlist-style-image: url(../../../images/icons/arrowgr.gif);\n\tlist-style-type:
+        disc;\n}\n.style1 {\n\tfont-size: x-large;\n\tfont-family: Verdana, Arial,
+        Helvetica, sans-serif;\n\tfont-weight: bold;\n\tcolor: #FFFFFF;\n}\n.style98
+        {\n\tfont-size: small;\n\tfont-family: Arial, Helvetica, sans-serif;\n\tcolor:
+        #FFFFFF;\n}\n.style95 {font-family: Arial, Helvetica, sans-serif;\n\tfont-size:
+        small;\n}\n.side_menu_title {font-size: small;\n\tcolor: #333;\n\tfont-family:
+        Arial, Helvetica, sans-serif;\n}\n.style951 {\tfont-family: Arial, Helvetica,
+        sans-serif;\n\tfont-size: small;\n\tcolor: #000000;\n}\n.style9511 {font-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n}\n.style9511 {font-family:
+        Arial, Helvetica, sans-serif;\n\tfont-size: small;\n}\n</STYLE>\n<script type=\"text/javascript\"
+        src=\"http://www.google.com/cse/tools/onthefly?form=searchbox_demo\"></script>\n\n<script
+        type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount',
+        'UA-27779143-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n
+        \   var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n<!-- InstanceBeginEditable
+        name=\"head\" -->\n<style type=\"text/css\">\n.style112 {font-size: small}\n.style121
+        {font-family: Arial, Helvetica, sans-serif}\n</style>\n<!-- InstanceEndEditable
+        -->\n\n</head>\n\n<body>\n<script>(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n
+        \ if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n
+        \ js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1\";\n  fjs.parentNode.insertBefore(js,
+        fjs);\n}(document, 'script', 'facebook-jssdk'));</script> \n \n<table width=\"980\"
+        \ border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n  <tr
+        valign=\"top\">\n    <td height=\"24\" colspan=\"2\"><table width=\"100%\"
+        border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\">\n
+        \     <tr bgcolor=\"#00509F\">\n        <TD height=\"50\" bgcolor=\"#FFFFFF\"><table
+        width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\"
+        bgcolor=\"#FFFFFF\">\n          <tr bgcolor=\"#ffffff\">\n            <td><table
+        width=\"980\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\"
+        bgcolor=\"#ffffff\">\n              <tr>\n                <td colspan=\"2\"><iframe
+        width=\"100%\" height=\"130\" frameborder=\"0\" marginwidth=\"0\" scrolling=\"no\"
+        src=\"../../../today/top_plug.html\"></iframe></td>\n              </tr>\n
+        \           </table></td>\n          </tr>\n          <tr bgcolor=\"#00509F\">\n
+        \           <TD bgcolor=\"#FFFFFF\"><table width=\"100%\" border=\"0\" cellpadding=\"2\"
+        cellspacing=\"1\">\n              <tr class=\"tracking\">\n                <td
+        width=\"92%\" align=\"left\" class=\"xsmall_grey\">&nbsp;Updated:\n                  <script
+        language=\"JavaScript\" type=\"text/javascript\" class=\"timetext\">\nvar
+        now = new Date();\nvar days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');\nvar
+        months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');\nvar
+        date = ((now.getDate()<10) ? \"0\" : \"\")+ now.getDate();\nfunction y2k(number){return
+        (number < 1000) ? number + 1900 : number;}\ntoday = days[now.getDay()] + \",
+        \" +\ndate + \" \" +\nmonths[now.getMonth()] + \" \" +\n(y2k(now.getYear()))
+        ;\ndocument.write(\"\" +today+ \" \");\n                                    </script>\n
+        \                 </a></td>\n                <td width=\"2%\" align=\"center\"
+        class=\"xsmall_grey\"><a href=\"../../../about/site_map.asp\"><img src=\"../../../images/icons/compass03.png\"
+        alt=\"View Site Map\" width=\"16\" height=\"16\" border=\"0\"></a></td>\n
+        \               <td width=\"5%\" align=\"left\" class=\"xsmall_grey\"><a href=\"../../../about/site_map.asp\"
+        class=\"tracking\">Site Map</a></td>\n                </tr>\n              </table></TD>\n
+        \         </tr>\n          <tr bgcolor=\"#00509F\">\n            <TD bgcolor=\"#FFFFFF\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n              <tr>\n
+        \               <td align=\"center\"><a href=\"../../../elections/vc_elections.asp\"><img
+        src=\"../../../images/banners/vc_election_2015_02.png\" alt=\"St. Vincent
+        and the Grenadines Election Centre 2015\" width=\"660\" height=\"30\" border=\"0\"></a></td>\n
+        \               <td align=\"center\"><a href=\"../../../knowledge/parties/vc_parties/default.asp\"><img
+        src=\"../../../images/icons/menu01.png\" alt=\"Political Parties\" width=\"40\"
+        height=\"40\" border=\"0\"></a></td>\n                <td align=\"center\"><a
+        href=\"../constituencies/default.asp\"><img src=\"../../../images/icons/menu03.png\"
+        alt=\"Electoral Districts\" width=\"40\" height=\"40\" border=\"0\"></a></td>\n
+        \               <td align=\"center\"><a href=\"default.asp\"><img src=\"../../../images/icons/menu02.png\"
+        alt=\"Candidates\" width=\"40\" height=\"40\" border=\"0\"></a></td>\n                <td
+        align=\"center\"><a href=\"../../elections/vc_results_2015.asp\"><img src=\"../../../images/icons/menu04.png\"
+        alt=\"Results\" width=\"40\" height=\"40\" border=\"0\"></a></td>\n                <td
+        align=\"center\"><a href=\"../../elections/default.asp\"><img src=\"../../../images/icons/menu05.png\"
+        alt=\"Past Elections\" width=\"40\" height=\"40\" border=\"0\"></a></td>\n
+        \               <td align=\"center\"><a href=\"../education/default.asp\"><img
+        src=\"../../../images/icons/menu06.png\" alt=\"Voter Education\" width=\"40\"
+        height=\"40\" border=\"0\"></a></td>\n              </tr>\n            </table></TD>\n
+        \         </tr>\n          <tr bgcolor=\"#00509F\">\n            <TD bgcolor=\"#FFFFFF\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"2\" cellpadding=\"1\" bgcolor=\"#ffffff\">\n
+        \             <tr>\n                <td width=\"10%\" align=\"center\" bgcolor=\"#E8EAEA\"><a
+        href=\"../../../elections/vc_elections.asp\" class=\"inside\">HOME</a></td>\n
+        \               <td width=\"15%\" height=\"23\" align=\"center\" bgcolor=\"#E8EAEA\"><a
+        href=\"../../../knowledge/parties/vc_parties/default.asp\" class=\"inside\">PARTIES</a></td>\n
+        \               <td width=\"15%\" align=\"center\" bgcolor=\"#E8EAEA\"><a
+        href=\"../constituencies/default.asp\" class=\"inside\">CONSTITUENCIES</a></td>\n
+        \               <td width=\"15%\" align=\"center\" bgcolor=\"#E8EAEA\"><a
+        href=\"default.asp\" class=\"inside\">CANDIDATES</a></td>\n                <td
+        width=\"15%\" align=\"center\" bgcolor=\"#E8EAEA\"><a href=\"../../elections/vc_results_2015.asp\"
+        class=\"inside\">RESULTS</a></td>\n                <td width=\"15%\" align=\"center\"
+        bgcolor=\"#E8EAEA\"><a href=\"../../elections/default.asp\" class=\"inside\">PAST</a></td>\n
+        \               <td width=\"15%\" align=\"center\" bgcolor=\"#E8EAEA\"><a
+        href=\"../education/default.asp\" class=\"inside\">EDUCATION</a></td>\n              </tr>\n
+        \           </table></TD>\n          </tr>\n          </table></TD>\n      </tr>\n
+        \   </table></td>\n  </tr>\n  <tr valign=\"top\">\n    <td height=\"36\" colspan=\"2\">
+        \n      <TABLE cellSpacing=0 cellPadding=0 width=\"100%\" border=0>\n        <TBODY>\n
+        \         <TR bgcolor=\"#FFFFFF\"> \n            <TD width=\"70%\" vAlign=top><table
+        width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"1\">\n              <tr>\n
+        \               <td width=\"75%\" valign=\"top\"><table width=\"100%\" border=\"0\"
+        cellspacing=\"0\" cellpadding=\"0\">\n                  <tr>\n                    <td><!--
+        InstanceBeginEditable name=\"content\" -->\n                        <table
+        width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n                          <tr>\n
+        \                           <td width=\"29%\" valign=\"top\"><table width=\"100%\"
+        border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#CCCCCC\">\n                                <tr>\n
+        \                                 <td bgcolor=\"#FFFFFF\"><img src=\"../../images/icons/ulp_back.png\"
+        width=\"100%\" height=\"12\"></td>\n                                </tr>\n
+        \                               <tr>\n                                  <td
+        bgcolor=\"#F5F5F3\"><img src=\"../../images/people/Ralph_Gonsalves_2015_03.jpg\"
+        alt=\"\" width=\"300\" height=\"375\" border=\"0\" align=\"absmiddle\"></td>\n
+        \                               </tr>\n                              </table></td>\n
+        \                           <td width=\"71%\" valign=\"top\"><table width=\"100%\"
+        border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n                              <tr>\n
+        \                               <td><table width=\"100%\" border=\"0\" cellpadding=\"2\"
+        cellspacing=\"1\">\n                                  <tr>\n                                    <td
+        height=\"40\" colspan=\"2\" bgcolor=\"#F4F4F4\" class=\"Article02\">Dr. Ralph
+        Everard GONSALVES**</td>\n                                  </tr>\n                                  <tr>\n
+        \                                   <td width=\"23%\" height=\"20\" bgcolor=\"#FFFFFF\"
+        class=\"body\"><span class=\"style95\">Constituency</span></td>\n                                    <td
+        width=\"77%\" height=\"20\" bgcolor=\"#FFFFFF\"><span class=\"style95\"><a
+        href=\"../constituencies/NC.asp\" target=\"_parent\" class=\"inside\">North
+        Central Windward</a></span></td>\n                                  </tr>\n
+        \                                 <tr>\n                                    <td
+        height=\"20\" bgcolor=\"#FFFFFF\" class=\"body\"><span class=\"style95\">Party</span></td>\n
+        \                                   <td height=\"20\" bgcolor=\"#FFFFFF\"><p
+        class=\"style95\"><a href=\"../parties/ulp.asp\" target=\"_parent\" class=\"inside\">Unity
+        Labour Party (ULP)</a></p></td>\n                                  </tr>\n
+        \                                 <tr>\n                                    <td
+        height=\"24\" colspan=\"2\" background=\"../../../images/icons/subtitle.jpg\"
+        bgcolor=\"#FFFFFF\"><span class=\"side_menu_title\"><strong class=\"body\">OPPONENT</strong></span></td>\n
+        \                                 </tr>\n                                  <tr>\n
+        \                                   <td height=\"20\" colspan=\"2\" bgcolor=\"#FFFFFF\"
+        class=\"body\"><table width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n
+        \                                     <tr>\n                                        <td
+        width=\"33%\"><table width=\"100%\" border=\"0\" cellpadding=\"2\" cellspacing=\"1\"
+        bgcolor=\"#CCCCCC\">\n                                          <tr>\n                                            <td
+        width=\"70%\" align=\"left\" valign=\"middle\" bgcolor=\"#FFFFFF\" class=\"style95\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"1\">\n                                              <tr>\n
+        \                                               <td><img src=\"../../images/icons/ndp_back.png\"
+        width=\"100%\" height=\"8\"></td>\n                                                </tr>\n
+        \                                             <tr>\n                                                <td
+        align=\"center\"><a href=\"Kenroy_Johnson.asp\"><img src=\"../../images/people/Kenroy_Johnson_2015.png\"
+        alt=\"\" width=\"108\" height=\"135\" border=\"0\" align=\"absmiddle\"></a></td>\n
+        \                                               </tr>\n                                              <tr>\n
+        \                                               <td height=\"50\" valign=\"top\"
+        bgcolor=\"#F5F5F3\"><a href=\"Kenroy_Johnson.asp\" class=\"inside\">Kenroy<br>\n
+        \                                                 <strong>JOHNSON</strong></a></td>\n
+        \                                               </tr>\n                                              <tr>\n
+        \                                               <td height=\"24\" bgcolor=\"#F5F5F3\"><a
+        href=\"../parties/ndp.asp\" class=\"inside\">NDP</a></td>\n                                                </tr>\n
+        \                                             </table></td>\n                                            </tr>\n
+        \                                         </table></td>\n                                        <td
+        width=\"33%\"><table width=\"100%\" border=\"0\" cellpadding=\"2\" cellspacing=\"1\"
+        bgcolor=\"#CCCCCC\">\n                                          <tr>\n                                            <td
+        width=\"70%\" align=\"left\" valign=\"middle\" bgcolor=\"#FFFFFF\" class=\"style95\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"1\">\n                                              <tr>\n
+        \                                               <td><img src=\"../../images/icons/drp_back.png\"
+        width=\"100%\" height=\"8\"></td>\n                                              </tr>\n
+        \                                             <tr>\n                                                <td
+        align=\"center\"><a href=\"Haran_Grant.asp\"><img src=\"../../images/people/George_Byron_2015.png\"
+        alt=\"\" width=\"108\" height=\"135\" border=\"0\" align=\"absmiddle\"></a></td>\n
+        \                                             </tr>\n                                              <tr>\n
+        \                                               <td height=\"50\" valign=\"top\"
+        bgcolor=\"#F5F5F3\"><a href=\"Haran_Grant.asp\" class=\"inside\">Harran<br>\n
+        \                                                 <strong>GRANT</strong></a></td>\n
+        \                                             </tr>\n                                              <tr>\n
+        \                                               <td height=\"24\" bgcolor=\"#F5F5F3\"><a
+        href=\"../parties/drp.asp\" class=\"inside\">DRP</a></td>\n                                              </tr>\n
+        \                                           </table></td>\n                                          </tr>\n
+        \                                       </table></td>\n                                        <td
+        width=\"33%\">&nbsp;</td>\n                                        </tr>\n
+        \                                     </table></td>\n                                  </tr>\n
+        \                                 <tr>\n                                    <td
+        height=\"24\" colspan=\"2\" background=\"../../../images/icons/subtitle.jpg\"
+        bgcolor=\"#FFFFFF\"><span class=\"side_menu_title\"><strong class=\"body\">QUICK
+        </strong>FACTS</span></td>\n                                  </tr>\n                                  <tr>\n
+        \                                   <td height=\"20\" colspan=\"2\" bgcolor=\"#FFFFFF\"
+        class=\"body\"><span class=\"style95\">Political Leader of the Unity Labour
+        Party</span></td>\n                                  </tr>\n                                  <tr>\n
+        \                                   <td height=\"20\" colspan=\"2\" bgcolor=\"#FFFFFF\"
+        class=\"body\"><span class=\"style95\">Prime Minister of St. Vincent and the
+        Grenadines since 2001</span></td>\n                                  </tr>\n
+        \                                 </table></td>\n                              </tr>\n
+        \                           </table></td>\n                          </tr>\n
+        \                         <tr>\n                            <td height=\"24\"
+        colspan=\"2\" background=\"../../../images/icons/subtitle.jpg\" bgcolor=\"#FFFFFF\"><span
+        class=\"side_menu_title\"><strong>PROFILE</strong></span></td>\n                            </tr>\n
+        \                         \n                          <tr>\n                            <td
+        colspan=\"2\" valign=\"top\"><p class=\"style95\">Ralph Everad Gonsalves was
+        born on August  08, 1946 to Alban Gonsalves and Theresa&nbsp;Francis in Colonarie,
+        a rural  village in St. Vincent and the Grenadines. He is married to&nbsp;Eloise
+        \ Gonsalves nee Harris and has three sons (Camillo, Adam and Storm), and  two&nbsp;daughters
+        (Isis and Soleil).<br>\n                              </p>\n                              <p
+        class=\"style95\">Dr. Gonsalves was educated in St. Vincent  and the Grenadines
+        at the Colonarie Roman&nbsp;Catholic School and at the St.  Vincent Boys&rsquo;
+        Grammar School. He later completed a&nbsp;Bachelor&rsquo;s Degree in  Economics
+        at the University of the West Indies, there obtaining&nbsp;several  noteworthy
+        accolades including, President of the Debating Society and  President&nbsp;of
+        the Guild of Undergraduates. In 1971, he obtained a Masters  in Government
+        from&nbsp;the University of the West Indies. In 1974 and 1981, he  obtained
+        a PhD in Government&nbsp;and a Degree of Utter Barrister at University  of
+        Manchester, England and Gray&rsquo;s Inn,&nbsp;London, respectively.<br>\n
+        \                               </p>\n                              <p class=\"style95\">Dr.
+        Gonsalves became the Deputy Political  Leader of the Unity Labour Party (ULP)
+        in&nbsp;1994. The ULP, a merger of the  St. Vincent and the Grenadines Labour
+        Party and the&nbsp;Movement for National  Unity (MNU), with Dr. Gonsalves
+        as leader, won the General Elections&nbsp;held  on March 28, 2000. He has
+        remained&nbsp;Prime Minister of St. Vincent and the  Grenadines since then,
+        winning the elections again&nbsp;in 2005 and 2010.<br>\n                                </p>\n
+        \                             <p class=\"style95\">Concurrently while pursuing
+        his political  career and prior to his becoming the Prime&nbsp;Minister of
+        St. Vincent and the  Grenadines, Mr. Gonsalves practiced law extensively and&nbsp;successfully
+        \ before the Eastern Caribbean Supreme Court in a wide range of matters,&nbsp;but
+        \ particularly in the fields of constitutional law, criminal law, administrative
+        \ law, matrimonial law, real&nbsp;property law, law of tort generally and
+        the law  of contract.<br>\n                                </p>\n                              <p
+        class=\"style95\">Affectionately known across the country as  Comrade Ralph,
+        Ralph Gonsalves is one of the most well-respected leaders in the  Caribbean.
+        Over the course of his life, he has transformed from an activist  fighting
+        against the injustices of colonialism and aristocratic rule to a Prime  Minister
+        who has transformed his country and uplifted the poorest and most  marginal
+        among us.<br>\n                                </p>\n                              <p
+        class=\"style95\">His story is well known to many of us.  It&rsquo;s been
+        chronicled in several books including his autobiography, <em>The Making  of
+        The Comrade: The Political Journey of Ralph Gonsalves</em>. What has guided
+        Comrade Ralph throughout  his life is a core philosophy that states that all
+        people deserve a decent shot  at life.<br>\n                                </p>\n
+        \                             <p class=\"style95\">During his tenure as Prime
+        Minister, he  ushered in an Education Revolution that ensured  that all our
+        people could have access to secondary education. He is building an  international
+        airport that will revolutionize our tourism product and bring  billions of
+        dollars in investment to our shores. And, he is about to embark on  the construction
+        of a new city at Arnos Vale which will include a new hospital  and a tunnel
+        under Cane Garden to town. It will be a center of commerce that  will create
+        jobs and opportunity.<br>\n                                </p>\n                              <p
+        class=\"style95\">Comrade Ralph is not only respected here  in St. Vincent
+        and the Grenadines, but, indeed he is one of the most respected  leaders in
+        the Caribbean. His foreign policy &ndash; a friend to all, satellite to  none
+        &ndash; has brought millions in investment into our country and strategically
+        \ placed us as a broker of international importance. His intellect and his
+        philosophy  mean he commands respect on all sides of the global political
+        divide.</p>\n                              <span class=\"style95\"> When  you
+        look up leader in the dictionary, the characteristics all describe our  leader
+        &ndash; Comrade Ralph. Strong. Principled. Effective. A man who brings people
+        \ together to get things done. He has a vision for our country. He has  transformed
+        our society. And, he has a deep and abiding love for all our people  and he
+        wants the best for each and every one of us.</span></td>\n                            </tr>\n
+        \                         <tr>\n                            <td height=\"24\"
+        colspan=\"2\" background=\"../../../images/icons/subtitle.jpg\" bgcolor=\"#FFFFFF\"><span
+        class=\"side_menu_title\"><strong>ELECTION </strong>TIMELINE</span></td>\n
+        \                         </tr>\n                          <tr>\n                            <td
+        colspan=\"2\" valign=\"top\"><table width=\"100%\" cellpadding=\"1\" cellspacing=\"1\">\n
+        \                             <col width=\"64\">\n                              <col
+        width=\"161\">\n                              <col width=\"230\">\n                              <col
+        width=\"64\">\n                              <col width=\"91\">\n                              <col
+        width=\"79\">\n                              <col width=\"203\">\n                              <tr
+        class=\"menu_title\">\n                                <td height=\"24\" align=\"center\"
+        bgcolor=\"#4BACC6\"><strong>Year</strong></td>\n                                <td
+        width=\"25%\" height=\"24\" align=\"left\" bgcolor=\"#4BACC6\" class=\"menu_title\"><strong>Constituency</strong></td>\n
+        \                               <td height=\"24\" align=\"center\" bgcolor=\"#4BACC6\"
+        class=\"menu_title\"><strong>Party</strong></td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#4BACC6\" class=\"menu_title\"><strong>Votes</strong></td>\n
+        \                               <td height=\"24\" align=\"center\" bgcolor=\"#4BACC6\"
+        class=\"menu_title\"><strong>% votes</strong></td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#4BACC6\" class=\"menu_title\"><strong>Result</strong></td>\n
+        \                               <td width=\"25%\" height=\"24\" bgcolor=\"#4BACC6\"
+        class=\"menu_title\"><strong>Notes</strong></td>\n                              </tr>\n
+        \                             <tr>\n                                <td align=\"center\"
+        bgcolor=\"#CAE6EE\" class=\"style95\"><a href=\"../../elections/vc_results_1994.asp\"
+        class=\"inside\">1994</a></td>\n                                <td align=\"left\"
+        bgcolor=\"#CAE6EE\" class=\"style95\"><a href=\"../constituencies/NC.asp\"
+        class=\"inside\">North Central Windward</a></td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">MNU</td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">2,702</td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">69.4%</td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#CAE6EE\"><span class=\"style95\"><img
+        src=\"../../../images/icons/tick02.png\" width=\"20\" height=\"20\" alt=\"Won\"></span></td>\n
+        \                               <td height=\"24\" bgcolor=\"#CAE6EE\" class=\"style95\">Winner</td>\n
+        \                             </tr>\n                              <tr>\n
+        \                               <td width=\"10%\" align=\"center\" bgcolor=\"#E6F3F7\"
+        class=\"style95\"><a href=\"../../elections/vc_results_1998.asp\" class=\"inside\">1998</a></td>\n
+        \                               <td width=\"25%\" align=\"left\" bgcolor=\"#E6F3F7\"
+        class=\"style95\"><a href=\"../constituencies/NC.asp\" class=\"inside\">North
+        Central Windward</a></td>\n                                <td width=\"75\"
+        align=\"center\" bgcolor=\"#E6F3F7\" class=\"style95\"><a href=\"../parties/ulp.asp\"
+        class=\"inside\">ULP</a></td>\n                                <td align=\"center\"
+        bgcolor=\"#E6F3F7\" class=\"style95\">2,973</td>\n                                <td
+        align=\"center\" bgcolor=\"#E6F3F7\" class=\"style95\">78.24%</td>\n                                <td
+        width=\"10%\" height=\"24\" align=\"center\" bgcolor=\"#E6F3F7\"><span class=\"style95\"><img
+        src=\"../../../images/icons/tick02.png\" width=\"20\" height=\"20\" alt=\"Won\"></span></td>\n
+        \                               <td width=\"25%\" height=\"24\" bgcolor=\"#E6F3F7\"
+        class=\"style95\">Winner</td>\n                              </tr>\n                              <tr>\n
+        \                               <td align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\"><a
+        href=\"../../elections/vc_results_2001.asp\" class=\"inside\">2001</a></td>\n
+        \                               <td align=\"left\" bgcolor=\"#CAE6EE\" class=\"style95\"><a
+        href=\"../constituencies/NC.asp\" class=\"inside\">North Central Windward</a></td>\n
+        \                               <td align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\"><a
+        href=\"../parties/ulp.asp\" class=\"inside\">ULP</a></td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">3,152</td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">80.74%</td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#CAE6EE\"><span class=\"style95\"><img
+        src=\"../../../images/icons/tick02.png\" width=\"20\" height=\"20\" alt=\"Won\"></span></td>\n
+        \                               <td width=\"25%\" height=\"24\" bgcolor=\"#CAE6EE\"><span
+        class=\"style95\">Winner</span></td>\n                              </tr>\n
+        \                             <tr>\n                                <td align=\"center\"
+        bgcolor=\"#E6F3F7\" class=\"style95\"><a href=\"../../elections/vc_results_2005.asp\"
+        class=\"inside\">2005</a></td>\n                                <td align=\"left\"
+        bgcolor=\"#E6F3F7\" class=\"style95\"><a href=\"../constituencies/NC.asp\"
+        class=\"inside\">North Central Windward</a></td>\n                                <td
+        align=\"center\" bgcolor=\"#E6F3F7\" class=\"style95\"><a href=\"../parties/ulp.asp\"
+        class=\"inside\">ULP</a></td>\n                                <td align=\"center\"
+        bgcolor=\"#E6F3F7\" class=\"style95\">2,880</td>\n                                <td
+        align=\"center\" bgcolor=\"#E6F3F7\" class=\"style95\">81.04%</td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#E6F3F7\"><span class=\"style95\"><img
+        src=\"../../../images/icons/tick02.png\" width=\"20\" height=\"20\" alt=\"Won\"></span></td>\n
+        \                               <td width=\"25%\" height=\"24\" bgcolor=\"#E6F3F7\"><span
+        class=\"style95\">Winner</span></td>\n                              </tr>\n
+        \                             <tr>\n                                <td align=\"center\"
+        bgcolor=\"#CAE6EE\" class=\"style95\"><a href=\"../../elections/vc_results_2010.asp\"
+        class=\"inside\">2010</a></td>\n                                <td align=\"left\"
+        bgcolor=\"#CAE6EE\" class=\"style95\"><a href=\"../constituencies/NC.asp\"
+        class=\"inside\">North Central Windward</a></td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\"><a href=\"../parties/ulp.asp\"
+        class=\"inside\">ULP</a></td>\n                                <td align=\"center\"
+        bgcolor=\"#CAE6EE\" class=\"style95\">3,004</td>\n                                <td
+        align=\"center\" bgcolor=\"#CAE6EE\" class=\"style95\">79.79%</td>\n                                <td
+        height=\"24\" align=\"center\" bgcolor=\"#CAE6EE\"><span class=\"style95\"><img
+        src=\"../../../images/icons/tick02.png\" width=\"20\" height=\"20\" alt=\"Won\"></span></td>\n
+        \                               <td height=\"24\" bgcolor=\"#CAE6EE\"><span
+        class=\"style95\">Winner</span></td>\n                              </tr>\n
+        \                           </table></td>\n                          </tr>\n
+        \                         </table>\n                        <!-- InstanceEndEditable
+        --></td>\n                  </tr>\n                  <tr>\n                    <td
+        class=\"style95\"><img src=\"../../../images/icons/gray_solid.png\" width=\"100%\"
+        height=\"1\"></td>\n                  </tr>\n                  <tr>\n                    <td
+        height=\"20\" class=\"style95\"><strong>Key</strong></td>\n                  </tr>\n
+        \                 <tr>\n                    <td height=\"20\" class=\"xsmall_grey\">DRP=
+        Democratic Republican Party; NDP = New Democratic Party; SVGP = St. Vincent
+        and the Grenadines Green Party; ULP = Unity Labour Party; IND = Independent;
+        \ * Incumbent; ** Political Leader</td>\n                  </tr>\n                  <tr>\n
+        \                   <td height=\"20\" class=\"style95\"><strong>Sources</strong></td>\n
+        \                 </tr>\n                  <tr>\n                    <td class=\"xsmall_grey\"><!--
+        InstanceBeginEditable name=\"source\" -->\n                      <table width=\"100%\"
+        border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n                        <tr>\n
+        \                         <td class=\"facts\">http://www.voteulp.com/</td>\n
+        \                       </tr>\n                      </table>\n                    <!--
+        InstanceEndEditable --></td>\n                  </tr>\n                  <tr>\n
+        \                   <td height=\"20\" class=\"style95\"><strong>Fact Check</strong></td>\n
+        \                 </tr>\n                  <tr class=\"facts\">\n                    <td
+        height=\"38\" class=\"style95\">We strive for accuracy and fairness. If you
+        see something that doesn't look right, or if you would like to share additional
+        information on the topic, kindly <a href=\"mailto:contact@caribbeanelections.com\"
+        class=\"inside\">contact us</a>!</td>\n                  </tr>\n                  <tr>\n
+        \                   <td height=\"18\" class=\"style95\"><strong>How to Reference
+        Our Site</strong></td>\n                  </tr>\n                  <tr class=\"facts\">\n
+        \                   <td height=\"18\" class=\"style95\"><span class=\"style95\">To
+        reference our site, please use the following as a general guideline.</span></td>\n
+        \                 </tr>\n                  <tr class=\"facts\">\n                    <td
+        height=\"18\" class=\"style95\"><span class=\"style95\"><strong>APA</strong>:
+        KnowledgeWalk Institute. (Date Published).Title of Web Page. Retrieved from
+        (URL) </span></td>\n                  </tr>\n                  <tr class=\"facts\">\n
+        \                   <td height=\"18\" class=\"style95\"><span class=\"style95\"><strong>MLA</strong>:
+        \"Title of Web Page.\" caribbeanelections.com. KnowledgeWalk Institute, (date
+        published). Web. Date Accessed. </span></td>\n                  </tr>\n                  <tr
+        class=\"facts\">\n                    <td height=\"18\" class=\"style95\"><span
+        class=\"style95\"><strong>Chicago</strong>: \"Title of Web Page,\" KnowledgeWalk
+        Institute, last modified (date), URL.</span></td>\n                  </tr>\n
+        \                 </table></td>\n                <td width=\"25%\" valign=\"top\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"2\">\n                  <tr>\n
+        \                   <td><table width=\"100%\" border=\"0\" cellspacing=\"1\"
+        cellpadding=\"2\">\n                      <tr bgcolor=\"#eeeeee\">\n                        <td
+        height=\"24\" valign=\"middle\"  bgcolor=\"#D0EDF9\" class=\"side_menu_title1\"><span
+        class=\"side_menu_title\"><span class=\"menu_title112\">&nbsp;</span><strong>SEARCH</strong>
+        CARIBBEAN ELECTIONS</span></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td align=\"left\"
+        bgcolor=\"#FFFFFF\"><script>\n  (function() {\n    var cx = '000260570373550162437:18ohgmdvn_g';\n
+        \   var gcse = document.createElement('script');\n    gcse.type = 'text/javascript';\n
+        \   gcse.async = true;\n    gcse.src = (document.location.protocol == 'https:'
+        ? 'https:' : 'http:') +\n        '//www.google.com/cse/cse.js?cx=' + cx;\n
+        \   var s = document.getElementsByTagName('script')[0];\n    s.parentNode.insertBefore(gcse,
+        s);\n  })();\n                                  </script>\n                          <gcse:search></gcse:search></td>\n
+        \                     </tr>\n                      </table></td>\n                    </tr>\n
+        \                 <tr>\n                    <td><table width=\"100%\" border=\"0\"
+        cellspacing=\"2\" cellpadding=\"2\">\n                      <tr valign=\"middle\"
+        bgcolor=\"#0066CC\">\n                        <td height=\"24\" colspan=\"2\"
+        align=\"center\" bgcolor=\"#D0EDF9\"><table width=\"100%\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"0\">\n                          <tr>\n                            <td
+        width=\"92%\"><span class=\"menu_title112\">&nbsp;</span><span class=\"side_menu_title\"><strong>2015
+        </strong> CANDIDATES</span></td>\n                            <td width=\"8%\"
+        align=\"right\"><a href=\"default.asp\"><img src=\"../../../images/icons/arrow02.png\"
+        width=\"13\" height=\"24\" alt=\"learn more\" border=\"0\"></a></td>\n                            </tr>\n
+        \                         </table></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td width=\"12%\"
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><font size=\"2\" face=\"Arial,
+        Helvetica, sans-serif\"><a href=\"../parties/drp.asp\"><img src=\"../../images/icons/drp_icon.png\"
+        alt=\"DRP\" width=\"24\" height=\"24\" border=\"0\"></a></font></td>\n                        <td
+        width=\"88%\" height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"><font face=\"Arial,
+        Helvetica, sans-serif\" color=\"#003366\"><a href=\"../parties/drp.asp\" class=\"inside\">Democratic
+        Republican  Party (DRP)</a></font></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        align=\"center\" bgcolor=\"#EFEFEF\"><font size=\"2\" face=\"Arial, Helvetica,
+        sans-serif\"><a href=\"../parties/ndp.asp\"><img src=\"../../images/icons/ndp_s_icon.png\"
+        alt=\"NDP\" width=\"24\" height=\"24\" border=\"0\"></a></font></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"><font face=\"Arial, Helvetica,
+        sans-serif\" color=\"#003366\"><a href=\"../parties/ndp.asp\" class=\"inside\">New
+        Democratic Party (NDP)</a></font></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        align=\"center\" bgcolor=\"#EFEFEF\"><font size=\"2\" face=\"Arial, Helvetica,
+        sans-serif\"><a href=\"../parties/svgp.asp\"><img src=\"../../images/icons/svgp_s_icon.png\"
+        alt=\"SVGP\" width=\"24\" height=\"24\" border=\"0\"></a></font></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"><font face=\"Arial, Helvetica,
+        sans-serif\" color=\"#003366\"><a href=\"../parties/svgp.asp\" class=\"inside\">SVG
+        Green Party (SVGP)</a></font></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        align=\"center\" bgcolor=\"#EFEFEF\"><font size=\"2\" face=\"Arial, Helvetica,
+        sans-serif\"><a href=\"../parties/ulp.asp\"><img src=\"../../images/icons/ulp_s_icon.png\"
+        alt=\"ULP\" width=\"24\" height=\"24\" border=\"0\"></a></font></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"><font face=\"Arial, Helvetica,
+        sans-serif\" color=\"#003366\"><a href=\"../parties/ulp.asp\" class=\"inside\">Unity
+        Labour Party (ULP)</a></font></td>\n                      </tr>\n                    </table></td>\n
+        \                 </tr>\n                  <tr>\n                    <td><table
+        width=\"100%\" border=\"0\" cellspacing=\"2\" cellpadding=\"2\">\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        colspan=\"2\" align=\"center\" bgcolor=\"#D0EDF9\"><table width=\"100%\" border=\"0\"
+        cellspacing=\"0\" cellpadding=\"0\">\n                          <tr>\n                            <td
+        width=\"92%\"><span class=\"menu_title112\">&nbsp;</span><span class=\"side_menu_title\"><strong>PARTY</strong>
+        MANIFESTOS</span></td>\n                            <td width=\"8%\" align=\"right\"><a
+        href=\"../../../knowledge/manifestos/vc_manifestos.asp\"><img src=\"../../../images/icons/arrow02.png\"
+        width=\"13\" height=\"24\" alt=\"learn more\" border=\"0\"></a></td>\n                          </tr>\n
+        \                       </table></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td width=\"50%\"
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../eDocs/manifestos/vc/NDP_manifesto_2015.pdf\"
+        target=\"_blank\" class=side><img src=\"../../images/eDocs/ndp_manifesto_2015.png\"
+        alt=\"Download\" width=\"130\" height=\"170\" border=\"0\"></a><a href=\"../../../eDocs/manifestos/ai/AUF_Manifesto_2015.pdf\"
+        target=\"_blank\" class=side></a></td>\n                        <td width=\"50%\"
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\" class=\"style951\"><a href=\"../../../eDocs/manifestos/vc/ULP_manifesto_2015.pdf\"
+        target=\"_blank\" class=side><img src=\"../../images/eDocs/ulp_manifesto_2015.png\"
+        alt=\"Download\" width=\"130\" height=\"170\" border=\"0\"></a></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        width=\"50%\" height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><span class=\"style951\"><font
+        face=\"Arial, Helvetica, sans-serif\" color=\"#003366\">NDP</font> <font color=\"#003366\"
+        face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a href=\"../../../eDocs/manifestos/vc/NDP_manifesto_2015.pdf\"
+        target=\"_blank\" class=\"inside\">2015 Manifesto</a></font></span></td>\n
+        \                       <td width=\"50%\" height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"
+        class=\"style951\"><font face=\"Arial, Helvetica, sans-serif\" color=\"#003366\"><a
+        href=\"../../../eDocs/manifestos/vc/ulp_manifesto_2015.pdf\" target=\"_blank\"
+        class=\"inside\">ULP</a></font> <font color=\"#003366\" face=\"Arial, Helvetica,
+        sans-serif\" class=\"sidemenu\"><a href=\"../../../eDocs/manifestos/vc/ULP_manifesto_2015.pdf\"
+        target=\"_blank\" class=\"inside\">2015 Manifesto</a></font></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../eDocs/manifestos/vc/DRP_manifesto_2015.pdf\"
+        target=\"_blank\" class=side><img src=\"../../images/eDocs/drp_manifesto_2015.png\"
+        alt=\"Download\" width=\"130\" height=\"170\" border=\"0\"></a></td>\n                        <td
+        align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../eDocs/manifestos/vc/SVGP_manifesto_2015.pdf\"
+        target=\"_blank\" class=side><img src=\"../../images/eDocs/svgp_manifesto_2015.png\"
+        alt=\"Download\" width=\"130\" height=\"170\" border=\"0\"></a></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><span class=\"style951\"><font
+        face=\"Arial, Helvetica, sans-serif\" color=\"#003366\">D</font></span><span
+        style=\"font-size: small;\"><font face=\"Arial, Helvetica, sans-serif\" color=\"#003366\">R</font></span><span
+        class=\"style951\"><font face=\"Arial, Helvetica, sans-serif\" color=\"#003366\">P</font>
+        <font color=\"#003366\" face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a
+        href=\"../../../eDocs/manifestos/vc/DRP_manifesto_2015.pdf\" target=\"_blank\"
+        class=\"inside\">2015 Manifesto</a></font></span></td>\n                        <td
+        align=\"center\" bgcolor=\"#EFEFEF\"><span class=\"style951\"><font face=\"Arial,
+        Helvetica, sans-serif\" color=\"#003366\">SVGP</font></span><span style=\"font-size:
+        small;\"><font face=\"Arial, Helvetica, sans-serif\" color=\"#003366\"> </font></span><span
+        class=\"style951\"><font color=\"#003366\" face=\"Arial, Helvetica, sans-serif\"
+        class=\"sidemenu\"><a href=\"../../../eDocs/manifestos/vc/SVGP_manifesto_2015.pdf\"
+        target=\"_blank\" class=\"inside\">2015 Manifesto</a></font></span></td>\n
+        \                     </tr>\n                    </table></td>\n                    </tr>\n
+        \                 <tr>\n                    <td><table width=\"100%\" border=\"0\"
+        cellspacing=\"2\" cellpadding=\"2\">\n                      <tr valign=\"middle\"
+        bgcolor=\"#0066CC\">\n                        <td height=\"24\" colspan=\"2\"
+        align=\"center\" bgcolor=\"#D0EDF9\"><table width=\"100%\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"0\">\n                          <tr>\n                            <td
+        width=\"92%\"><span class=\"menu_title112\">&nbsp;</span><span class=\"side_menu_title\"><strong>POPULAR</strong>
+        RESOURCES</span></td>\n                            <td width=\"8%\" align=\"right\"><a
+        href=\"../../../knowledge/country_browser/vc_profile.asp\"><img src=\"../../../images/icons/arrow02.png\"
+        width=\"13\" height=\"24\" alt=\"learn more\" border=\"0\"></a></td>\n                            </tr>\n
+        \                         </table></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"http://pollingstation.gov.vc/\"
+        target=\"_blank\" class=side><img src=\"../../../images/icons/search04.png\"
+        alt=\"Election Centre\" width=\"24\" height=\"24\" border=\"0\"></a></td>\n
+        \                       <td height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"
+        class=\"style951\"><font color=\"#003366\" face=\"Arial, Helvetica, sans-serif\"
+        class=\"sidemenu\"><a href=\"http://pollingstation.gov.vc/\" target=\"_blank\"
+        class=\"inside\"> SVG Voter Lookup</a></font></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"https://www.youtube.com/watch?v=gSs1ZXrkE3I\"
+        target=\"_blank\" class=side><img src=\"../../../images/icons/video.png\"
+        alt=\"Election Centre\" width=\"24\" height=\"24\" border=\"0\"></a></td>\n
+        \                       <td height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"
+        class=\"style951\"><font color=\"#003366\" face=\"Arial, Helvetica, sans-serif\"
+        class=\"sidemenu\"><a href=\"https://www.youtube.com/watch?v=gSs1ZXrkE3I\"
+        target=\"_blank\" class=\"inside\"> How to Vote in SVG</a></font></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../election2010/default.asp\"
+        class=side><img src=\"../../../images/icons/election_icon.png\" alt=\"Election
+        Centre\" width=\"24\" height=\"24\" border=\"0\"></a></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\" class=\"style951\"><font
+        color=\"#003366\" face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a
+        href=\"../../election2010/default.asp\" class=\"inside\"> SVG Election Centre
+        2010</a></font></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td width=\"7%\"
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../knowledge/country_browser/vc_profile.asp\"
+        class=side><img src=\"../../../images/icons/knowledge_icon_02.png\" alt=\"Knowledge
+        Centre\" width=\"24\" height=\"24\" border=\"0\"></a></td>\n                        <td
+        width=\"93%\" height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\" class=\"style951\"><font
+        color=\"#003366\" face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a
+        href=\"../../../knowledge/country_browser/vc_profile.asp\" class=\"inside\">
+        SVG Knowledge Centre</a></font></td>\n                      </tr>\n                      <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td height=\"24\"
+        align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../knowledge/biography/leaders/vc_leaders/vc_heads_of_state.asp\"
+        class=side><img src=\"../../../images/icons/people_02.png\" alt=\"Learn more\"
+        width=\"24\" height=\"24\" border=\"0\"></a></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\" class=\"style951\"><font
+        color=\"#003366\" face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a
+        href=\"../../../knowledge/biography/leaders/vc_leaders/vc_heads_of_state.asp\"
+        class=\"inside\"> Governors-General</a></font></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../knowledge/biography/leaders/vc_leaders/vc_heads_of_government.asp\"
+        class=side><img src=\"../../../images/icons/people_02.png\" alt=\"Learn more\"
+        width=\"24\" height=\"24\" border=\"0\"></a></td>\n                        <td
+        height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\" class=\"style951\"><font
+        color=\"#003366\" face=\"Arial, Helvetica, sans-serif\" class=\"sidemenu\"><a
+        href=\"../../../knowledge/biography/leaders/vc_leaders/vc_heads_of_government.asp\"
+        class=\"inside\"> Heads of Government</a></font></td>\n                      </tr>\n
+        \                     <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                        <td
+        height=\"24\" align=\"center\" bgcolor=\"#EFEFEF\"><a href=\"../../../eDocs/budget/vc_budget/vc_budget_2015.pdf\"
+        target=\"_blank\" class=side><img src=\"../../../images/icons/budget_icon.png\"
+        alt=\"Budget Statements\" width=\"24\" height=\"24\" border=\"0\"></a></td>\n
+        \                       <td height=\"24\" align=\"left\" bgcolor=\"#EFEFEF\"
+        class=\"style951\"><font color=\"#003366\" face=\"Arial, Helvetica, sans-serif\"
+        class=\"sidemenu\"><a href=\"../../../eDocs/budget/vc_budget/vc_budget_2015.pdf\"
+        target=\"_blank\" class=\"inside\"> Budget Statement 2015</a></font></td>\n
+        \                     </tr>\n                    </table></td>\n                    </tr>\n
+        \                 <tr>\n                    <td><table width=\"100%\" border=\"0\"
+        cellspacing=\"1\" cellpadding=\"2\" >\n                      <tr valign=\"middle\"
+        bgcolor=\"#0066CC\">\n                        <td bgcolor=\"#FFFFFF\" class=\"style98\"><table
+        width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"2\" >\n                          <tr
+        valign=\"middle\" bgcolor=\"#0066CC\">\n                            <td align=\"center\"
+        bgcolor=\"#D0EDF9\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
+        \                             <tr>\n                                <td width=\"92%\"><span
+        class=\"side_menu_title\">&nbsp;<strong>ABOUT</strong> CARIBBEAN ELECTIONS</span></td>\n
+        \                               <td width=\"8%\" align=\"right\"><a href=\"../../../about/default.asp\"><img
+        src=\"../../../images/icons/arrow02.png\" width=\"13\" height=\"24\" alt=\"learn
+        more\" border=\"0\"></a></td>\n                                </tr>\n                              </table></td>\n
+        \                           </tr>\n                          <tr valign=\"middle\"
+        bgcolor=\"#0066CC\">\n                            <td align=\"center\" bgcolor=\"#F5F8FC\"><a
+        href=\"../../../about/default.asp\"><img src=\"../../../images/banners/ce_8_banner.png\"
+        alt=\"Caribbean Elections\" width=\"260\" height=\"100\" border=\"0\"></a></td>\n
+        \                           </tr>\n                          <tr valign=\"middle\"
+        bgcolor=\"#0066CC\">\n                            <td align=\"left\" bgcolor=\"#FFFFFF\"><font
+        face=\"Arial, Helvetica, sans-serif\" class=\"style951\">Caribbean Elections
+        provides comprehensive information on the electoral process, politics, and
+        citizenship in the Caribbean. The portal includes election data and resources
+        for the public, teachers, students, and researchers.</font></td>\n                            </tr>\n
+        \                         <tr valign=\"middle\" bgcolor=\"#0066CC\">\n                            <td
+        height=\"24\" align=\"right\" valign=\"bottom\" bgcolor=\"#FFFFFF\"><a href=\"../../../about/default.asp\"
+        class=\"sidemenu\">Learn more about CE&raquo;</a></td>\n                            </tr>\n
+        \                         </table></td>\n                      </tr>\n                      </table></td>\n
+        \                 </tr>\n                </table></td>\n              </tr>\n
+        \           </table></TD>\n          </TR>\n        </TBODY>\n      </TABLE>\n
+        \   </td>\n  </tr>\n  <tr>\n    <td height=\"43\" colspan=\"2\" align=\"right\"
+        bgcolor=\"#FFFFFF\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
+        \     <tr>\n        <td colspan=\"2\" align=\"left\" bgcolor=\"#FFFFFF\"><img
+        src=\"../../../images/icons/bluesquare2.gif\" alt=\"\" width=\"100%\" height=\"5\"></td>\n
+        \     </tr>\n      <tr>\n        <th width=\"54%\" height=\"70\" align=\"left\"
+        valign=\"middle\" bgcolor=\"#E6E7E8\"><a href=\"http://www.knowledgewalk.com\"
+        target=\"_blank\"><img src=\"../../../images/icons/kwi03.png\" alt=\"Visit
+        KnowledgeWalk Institute\" width=\"311\" height=\"50\" border=\"0\"></a></th>\n
+        \       <th width=\"46%\" height=\"70\" align=\"right\" valign=\"middle\"
+        bgcolor=\"#E6E7E8\"><span class=\"xsmall_grey\">&copy; 2008-2016<a href=\"http://www.knowledgewalk.com\"
+        class=\"tracking\"> Knowledgewalk Institute.</a> All Rights Reserved.</span><span
+        class=\"style88\"> <a class=\"bottomlink\" href=\"../../../about/privacy.asp\"><br>\n
+        \       </a></span><span class=\"xsmall_grey\"><a class=\"tracking\" href=\"../../../about/privacy.asp\">Privacy
+        Statement</a> | <a class=\"tracking\" href=\"../../../about/terms.asp\">Terms
+        of Use</a>&nbsp; | <a class=\"tracking\" href=\"../../../about/advertise.asp\">Advertise
+        With Us</a> | <a href=\"../../../about/default.asp\" class=\"tracking\">About
+        Us</a> | <a href=\"../../../about/contact.asp\" class=\"tracking\">Contact
+        Us&nbsp;&nbsp;</a></span></th>\n      </tr>\n    </table></td>\n  </tr>\n</table>\n\n</body>\n<!--
+        InstanceEnd --></html>\n"
+    http_version: 
+  recorded_at: Thu, 27 Apr 2017 12:40:28 GMT
+recorded_with: VCR 3.0.3
