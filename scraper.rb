@@ -44,7 +44,9 @@ class WinnerRow < Scraped::HTML
 
   field :source do
     # wrong link on site!
-    return 'http://www.caribbeanelections.com/vc/election2015/candidates/Frederick_Stephenson.asp' if area == 'South Windward'
+    if area == 'South Windward'
+      return 'http://www.caribbeanelections.com/vc/election2015/candidates/Frederick_Stephenson.asp'
+    end
     tds[2].css('a/@href').text
   end
 
@@ -63,7 +65,7 @@ class MemberPage < Scraped::HTML
   end
 
   field :name do
-    name_td.text.gsub('*', '')
+    name_td.text.delete('*')
   end
 
   field :image do
