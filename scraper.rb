@@ -18,7 +18,7 @@ def scrape(h)
 end
 
 class ResultsPage < Scraped::HTML
-  decorator Scraped::Response::Decorator::AbsoluteUrls
+  decorator Scraped::Response::Decorator::CleanUrls
 
   field :elected_members do
     noko.xpath('//span[contains(.,"ELECTED MEMBERS")]//following::table[1]//tr[td]').drop(1).map do |tr|
